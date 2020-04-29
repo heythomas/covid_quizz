@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Covid Quizz</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+</head>
+<body>
+    <img class="bg" src="./images/scene.jpg" alt="fond bloc opératoire">
+    <div class="doc" style="display: none;">
+        <div class="cross" onclick="display_doc(true)">
+            <i class="fas fa-times fa-2x"></i>
+        </div>
+        <div class="doc_pannel">
+            <div class="error"><h2>Méthodes de protection</h2>
+                <div>
+                    Au niveau des protections, de nombreuses méthodes existent, <b>lesquelles mettre en oeuvre</b> ?
+                    <br><br>Au niveau des protections individuelles il y a <b>les masques</b>, l'objectif est de <b>masquer les portes d'entrées du virus</b>, le nez et la bouche, il existe 3 types de masques, du plus au moins efficace :
+                    <ul>
+                        <li>
+                            Les <b>masques FFP2</b> qui protègent aussi bien le porteur du masque que les personnes autour, ce genre de masque est <b>jetable</b> et donc disponible en petite quantité, son usage n'est <b>réellement utile qu'au personnel soignant</b>.
+                        </li>
+                        <li>
+                            Les <b>masques chirurgicaux protègent beaucoup moins le porteur que les FFP2</b>, le principal but est ici de bloquer les postillons du porteur pour <b>éviter de contaminer les personnes en contact avec le porteur</b>, comme les FFP2 <b>ces masques sont jetables</b> et donc disponibles qu'en petite quantité surtout si tout le monde en porte.
+                        </li>
+                        <li>
+                            Les <b>masques dits "alternatifs"</b>, ce sont des masques à la qualité variable qui sont <b>réutilisables</b>, en général en tissus il protegent moins mais <b>présentent l'avantage d'être portables par tout le monde tout le temps et sans problèmes de logistique</b> car réutilisables.
+                        </li>
+                    </ul>
+                    Gros problème, il faut <b>savoir bien porter un masque ce qui n'est pas si intuitif</b> (ne pas le manipuler après la pose, couvrir le nez...) et clou du spectacle, <b>ces masques ne servent à rien si le porteur n'adopte pas de bonnes pratiques</b> comme le lavage fréquent des mains, la distanciation sociale, la limitation de nos contacts, c'est <b>LA mesure la plus efficace pour se protéger et protéger les autres</b>, le masque n'est qu'un bonus.
+                </div>
+                <img src="./images/protection.png" alt="protection">
+                <br><br><h3>Sources :</h3>
+                <a href="https://solidarites-sante.gouv.fr/IMG/pdf/Fiche_Masques.pdf" target="_blank">Ministère de la santé : PDF décrivant les différences entre le masque chirurgical et le FFP2</a>
+                <br><a href="https://www.gouvernement.fr/info-coronavirus">Gouvernement : Gestes barrières et informations sur le coronavirus</a>   
+                <br><a href="https://sante.journaldesfemmes.fr/fiches-maladies/2609189-masque-coronavirus-covid-obligatoire-11-mai-sortir-commerce-magasin-ecole-travail-tissu-homologue-chirurgical-grand-public/">Journal des femmes : Informations sur les masques</a>
+                <br><a href="https://www.futura-sciences.com/sante/questions-reponses/coronavirus-coronavirus-bien-porter-son-masque-13558/" target="_blank">Futura Sciences : Bien porter un masque</a>
+            </div>
+            <div class="error"><h2>Origines du Coronavirus</h2>
+                <div>
+                    Le coronavirus vient très probablement de la <b>chauve-souris</b>, un animal connu pour son <b>système immunitaire particulier</b> qui lui permet de "vivre avec les virus" qu'elle croise et ce sans aucune complication, devenant par la même occasion un <b>porteur sain</b> capable de propager des virus avec ses déjections, sa salive ou son ingestion.
+                    <br><br>Le coronavirus aurait muté au sein du <b>pangolin</b> (contaminé par une chauve-souris) avant de se <b>transmettre à l'homme</b> certainement après ingestion de pangolin par des êtres humains mais ce dernier point est <b>difficile à déterminer</b> en l'absence de la certitude de l'identité du patient 0 (le premier humain contaminé).
+                    <br><br>Certaines théories proposent <b>le serpent</b> comme intermédiaire entre la chauve souris et l'homme, à la place du pangolin, le débat n'est pas clot.
+                    <br><br><b>Les pandémies dues aux animaux sont de plus en plus fréquentes</b>, cependant il y a de moins en moins d'animaux mais <b>ces derniers sont de plus en plus proches des hommes</b>.
+                    <br>On peut l'expliquer simplement, leur <b>habitat naturel est réduit à peau de chagrin</b> par l'exploitation de cette même zone (déforestation, agriculture...) et <b>facilite leur contact avec les hommes</b> lors de leur excursions tojours plus proches de zones habitées, nous ne sommes donc pas innocents par rapport à l'apparition de cette pandémie...
+                    <br><br>Une certitude indéniable, le coronavirus n'est <b>pas d'origine humaine</b> (au niveau de sa création), une fake news a circulé mettant en avant le fait qu'<b>en 2003 a été breveté UN coronavirus</b>, et pas LE coronavirus.
+                    <br>Cette nuance est importante, <b>en 2003 à été breveté le SARS-CoV et pas l'actuel SARS-CoV-2</b>, lorsque un virus est breveté il n'est pas forcément créé par l'homme et si c'était le cas ici <b>nous ne parlons pas du même virus, c'est comme dire que Renault à créé la Fiat 500 car ils ont breveté la Clio 4</b>.
+                    <img src="./images/origine.png" alt="origines">
+                    <br><br><h3>Sources :</h3>
+                    <a href="https://www.lemonde.fr/sciences/article/2020/04/13/la-chauve-souris-alliee-ou-ennemie_6036465_1650684.html" target="_blank">Le Monde : Les secrets de la chauve-souris</a>
+                    <br><a href="https://factuel.afp.com/non-le-coronavirus-detecte-en-chine-na-pas-ete-cree-en-laboratoire-puis-brevete" target="_blank">AFP Factuel : Coronavirus breveté</a>
+                    <br><a href="https://www.lexpress.fr/actualite/societe/sante/cinq-hypotheses-sur-l-origine-du-covid-19-de-la-plus-serieuse-a-la-plus-farfelue_2124008.html" target="_blank">L'Express : Origines du Coronavirus</a>
+                    <br><a href="https://www.youtube.com/watch?v=VJNt1AQ8p2A" target="_blank">Léo Grasset "Dirty Biology" : Les futures épidémies</a>
+                </div>
+            </div>
+            <div class="error"><h2>Quels sont les risques ?</h2>
+                <div>
+                    Evidemment certaines personnes sont plus touchées que d'autres, des gens de tous les ages meurent mais voici les caractéristiques les plus a risque :
+                    <ul>
+                        <li>
+                            Les personnes agées, quand les enfant de <b>moins de 17 ans</b> représentent <b>0.04%</b> des décédés du covid-19, les individus de <b>plus de 75ans</b> représentent <b>47.7%</b>, on peut noter que les hommes meurrent plus que les femmes (<b>61.8% des morts sont des hommes</b>)
+                        </li>
+                        <li>
+                            Une personne atteinte de <b>troubles cardiaques</b> à en moyenne <b>13.2%</b> de chances de décéder des suites du virus
+                        </li>
+                        <li>
+                            Des problèmes <b>pulmonaires et respiratoires</b> entrainent la mort dans <b>8.0%</b> des cas confirmés de covid-19
+                        </li>
+                        <li>
+                            D'autres troubles sont déterminants sur les chances de survie (<b>Diabète, Hypertension, ou encore les Cancers</b>)
+                        </li>
+                    </ul>
+                    Ces chiffres ne doivent pas nous donner de l'assurance, si nous ne sommes pas dans la tranche de population vulnérable, rien ne peut nous arriver ?
+                    <br>Et bien non, et même si l'on est asymptomatique, ce sera ne sera pas le cas des personnes que l'on peut croiser... <b>Protéger les autres et nous même c'est la clé pour limiter les risques</b>
+                    <img src="./images/risque.png" alt="risque">
+                    <br><br><h3>Source :</h3>
+                    <a href="https://www.worldometers.info/coronavirus/coronavirus-age-sex-demographics/" target="_blank">Worldomaters : Statistiques des antécédents médicaux des décédés du covid-19</a>
+                </div>
+            </div>
+            <div class="error"><h2>Comment se réalise la transmission ?</h2>
+                <div>
+                    La transmission se réalise par les <b>voies respiratoires</b>, plus spécifiquement par les gouttelettes de salive ou de liquide nasal produites lors d'éternuements ou lors de la parole.
+                    <br>Par extension ces gouttelettes peuvent <b>contaminer des objets</b> comme des poignées de portes qui deviennent ainsi des risques pendant (les estimations varient) 2 ou 3 jours, une fois nos mains contaminées si l'on touche notre visage le virus à de grandes chances de nous contaminer.
+                    <br><br><br>En moyenne, <b>sans mesures particulières un individu contaminé en contamine 2 ou 3 autres</b>, en leur éternuant dessus, en contaminant un objet ou alors en <b>discutant pendant plus de 15 minutes à moins d'un mètre</b> de cette personne.
+                    <br>Le coronavirus ne se propage <b>pas via les moustiques</b> d'après les études actuelles.
+                    <img src="./images/transmission.png" alt="transmission">
+                    <br><br><h3>Sources :</h3>
+                    <a href="https://www.passeportsante.net/fr/Actualites/Dossiers/Fiche.aspx?doc=transmission-coronavirus-comment-se-proteger" target="_blank">Passeport santé : Transmission du coronavirus</a>
+                    <br><a href="https://www.futura-sciences.com/sante/actualites/coronavirus-coronavirus-ce-on-sait-maladie-propagation-80443/" target="_blank">Futura Sciences : Ce qu'on sait de sa propagation</a>
+                </div>
+           </div>
+            <div class="error"><h2>Des traitements efficaces ?</h2>
+                <div>
+                    Pour le moment <b>AUCUN traitement n'a été prouvé comme étant utilisable</b>, de nombreux tests sont en cours, certains plus médiatisés que d'autres mais il ne faut surtout pas mettre la charrue devant les boeufs dans ce domaine.
+                    <br><br>Un test médical pour être recevable doit être réalisé sur un pannel large de personnes, il doit y avoir un groupe controle et un groupe intervention, c'est à dire <b>un groupe qui recoit effectivement le traitement testé et un groupe qui recoit un placebo (traitement inutile) ou alors le traitement actuel</b>.
+                    <br>Les conditions de médicamentation de ces deux groupes doit strictement être la même, les patients ET les "donneurs" du médicament ne doivent pas pouvoir savoir si ce traitement est un véritable.
+                    <br><br>Une fois cette expérience réalisée, <b>si l'on constate une différence notable entre les deux groupes qui est favorable au groupe intervention, alors à ce moment là on peut affirmer avec beaucoup plus de certitudes qu'un traitement est efficace</b>.
+                    <br><br>Sans ces tests réalisés sur un pannel important de patients, il est <b>impossible et dangereux</b> d'affirmer avec certitude que tel ou tel traitement est efficace.
+                    <br><br>Dans le cas de la chloroquine qui est médicament déjà connu pour le traitement du paludisme, <b>se passer de tests n'est tout de même pas possible</b>, le contexte n'est pas le même, <b>le coronavirus n'est pas le paludisme</b>, des tests doivent être réalisés dans le contexte décrit plus haut pour justifier son utilisation.
+                    <br>Pour finir, l'<b>automédication</b> de produits supposés miracles n'est vraiment <b>pas une bonne idée</b>...
+                    <img src="./images/traitement.png" alt="traitement">
+                    <br><br><h3>Sources :</h3>
+                    <a href="http://blogensante.fr/2013/09/10/definir-la-notion-de-groupe-controle/" target="_blank">Blog en Santé : Principe du groupe contrôle</a>
+                    <a href="https://www.futura-sciences.com/sante/definitions/medecine-etude-double-insu-3336/" target="_blank">Futura Sciences : Définition du double aveugle</a>
+                    <a href="https://www.lequotidiendumedecin.fr/specialites/infectiologie/hydroxychloroquine-le-pr-raoult-communique-ses-resultats-sur-plus-de-1-000-patients-mais-suscite" target="_blank">Hydroxychloroquine : Tests incomplets</a>
+                    <a href="https://www.pourquoidocteur.fr/Articles/Question-d-actu/31890-Coronavirus-Americain-decede-ingere-phosphate-chloroquine" target="_blank">Pourquoi Docteur : Dangers de l'automédication</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="final" style="display: none;">
+        <div class="final_pannel"> 
+
+        </div>
+    </div>
+    <div class="scene">
+        <div class="sprite">
+            <img src="./sprite/SARS.png" alt="SARS-COV-2">
+        </div>
+        <div class="control">
+            <p>Testez vos connaissances sur la pandémie COVID 19, pensez à vous documenter avant !</p>
+            <div>
+                <input type="button" onclick="answer(0, 'none')" value="Je commence à jouer">
+                <input type="button" onclick="display_doc(false)" value="Je me documente avant de commencer">
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a5ab6a1c1a.js" crossorigin="anonymous"></script>
+    <script src='./js/jQuery.js'></script>
+    <script src='./js/script.js'></script>
+</body>
+</html>
